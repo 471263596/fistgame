@@ -5,7 +5,6 @@ import java.util.Scanner;
 public abstract class Player {
 	private String playName;//玩家姓名
 	private int winningTimes;//赢的次数
-	Scanner input =new Scanner(System.in);
 	
 	public abstract int myFist();//方法：出拳
 	public abstract void inputName();//方法：输入姓名

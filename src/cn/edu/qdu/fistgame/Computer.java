@@ -7,7 +7,7 @@ public class Computer extends Player {
 
 	public void inputName() {
 		// 用户选择电脑的姓名，选择错误则重新选择
-		// Scanner input =new Scanner(System.in);
+		Scanner input =new Scanner(System.in);
         String[] name={"刘备","孙权","曹操"};
 		int i = input.nextInt();
 		setPlayName(name[i-1]);

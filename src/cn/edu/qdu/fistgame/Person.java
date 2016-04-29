@@ -4,7 +4,7 @@ package cn.edu.qdu.fistgame;
 
 public class Person extends Player {
 	// 用户输入姓名
-	// Scanner input =new Scanner(System.in);
+	Scanner input =new Scanner(System.in);
 	public void inputName() {
 		setPlayName(input.nextLine());
 	}

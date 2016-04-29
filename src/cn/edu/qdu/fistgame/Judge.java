@@ -8,16 +8,8 @@ public class Judge {
 	private int total = 0;// 比赛总局数
 
 	public static void main(String[] args) {
-//		String yn = "";// 选择是否开始
-//		@SuppressWarnings("resource")
-//		Scanner input = new Scanner(System.in);
 		judge.startGame();// 开始游戏的菜单及说明
 		judge.askName();// 询问电脑及用户姓名
-
-//		System.out.print("要开始了吗？（y/n）:");
-//		yn = input.nextLine();
-//		System.out.println("");
-
 		judge.playGame();// 猜拳游戏内容
 
 		
@@ -33,11 +25,6 @@ public class Judge {
 
 	public void askName() {
 		// 询问电脑及用户姓名
-		// boolean flag=false;
-		// do{
-		// System.out.print("请选择对方角色（1：刘备 2.孙权 3.曹操）：");
-		// computer.inputName();
-		// }while(flag);
 		System.out.print("请选择对方角色（1：刘备 2.孙权 3.曹操）：");
 		computer.inputName();
 
